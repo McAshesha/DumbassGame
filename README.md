@@ -163,7 +163,6 @@ cdm16-amba-ahb-demo/
 │   └── logisim/          # schematics
 │       ├── cdm16.circ    # CPU core (read-only)
 │       └── main.circ     # top-level project file
-├── docs/ (optional)      # move screenshots here if you like
 └── README.md             # you’re reading it
 ```
 
