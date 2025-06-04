@@ -24,9 +24,7 @@
 5. 🎮 [Demo application — Hangman 🪢](#demo-application--hangman-)
 6. 🚀 [Getting started](#getting-started)
 7. 🗂️ [Project layout](#project-layout)
-8. 🛣️ [Roadmap](#roadmap)
-9. 📄 [License](#license)
-10. 📬 [Contact](#contact)
+8. 📄 [License](#license)
 
 ---
 
