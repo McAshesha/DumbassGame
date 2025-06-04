@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-%F0%9F%9A%80%20active-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/status-%F0%9F%9A%80%20completed-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/logic-Logisim-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/assembly-CdM16-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/game-Hangman-red?style=for-the-badge"/>
