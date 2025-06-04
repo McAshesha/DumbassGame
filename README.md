@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-%F0%9F%9A%80%20active-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/logic-Logisim%20Evolution-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/logic-Logisim-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/assembly-CdM16-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/game-Hangman-red?style=for-the-badge"/>
 </p>
@@ -35,7 +35,7 @@
 > — someone in our digital-logic class, probably.
 
 - **Industrial standard.** AMBA AHB-Lite is what real chips speak; no cut corners.
-- **Open tooling.** Runs entirely in Logisim-Evolution + a few open-source plugins.
+- **Open tooling.** Runs entirely in Logisim + a few open-source plugins.
 - **Full stack.** From Verilog-style schematics → assembly code → playable game.
 
 All the gory details live in the repo so you can clone, run, and hack away.
@@ -99,7 +99,7 @@ All peripherals are memory-mapped; no special I/O instructions required.
 | **5** | **Keyboard** | User keypress |
 | 6–15 | _Available_ | Extend as you like |
 
-Enable interrupts in the status register (`ps.ie = 1`) and you’re good.
+Enable interrupts in the status register and you’re good.
 
 ---
 
@@ -120,8 +120,8 @@ Enable interrupts in the status register (`ps.ie = 1`) and you’re good.
 
 ### 0. Prerequisites
 | Tool | Tested version | Notes |
-|------|----------------|-------|
-| **Logisim-Evolution** | `3.8.0` | <https://github.com/reds-heig/logisim-evolution> |
+|------|----------------|----|
+| **Logisim** | `3.8.0` | <https://sourceforge.net/projects/circuit/> |
 | **logisim-cdm-emulator** | `0.2.2` | in `lib/` |
 | **logisim-banked-memory** | `0.2.2` | in `lib/` |
 | **logisim-debugger** | `0.2.2` | in `lib/` |
@@ -137,13 +137,13 @@ cd cdm16-amba-ahb-demo
 
 ```bash
 cd src/asm
-./assemble.sh main.asm        # → build/out.img
+cocos main.asm        # → build/out.img
 ```
 
 ### 3. Launch the simulation
 
 ```bash
-logisim-evolution src/logisim/main.circ
+logisim src/logisim/main.circ
 ```
 
 Hit **🟥 Reset**, then **▶️ Run**.
@@ -185,27 +185,5 @@ See [`LICENSE`](LICENSE) for the full text.
 
 ---
 
-## Contact
-
-<div align="left">
-  <a href="https://t.me/mcashesha" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/768px-Telegram_2019_Logo.svg.png" alt="Telegram" height="40"/>
-  </a>
-  <a href="mailto:mcashesha@mail.ru" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png" alt="Email" height="40"/>
-  </a>
-  <a href="https://vk.com/mcashesha" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VK_Compact_Logo_%282021-present%29.svg/2048px-VK_Compact_Logo_%282021-present%29.svg.png" alt="VK" height="40"/>
-  </a>
-</div>
-
----
-
 > *Feel free to open issues, PRs, or just ping me on Telegram if you build something cool on top of this platform!*
 
-
-**What next?**  
-- Drop this markdown into `README.md`  
-- Commit the six media files (`*.jpg`, `*.gif`) at repo root or `docs/` and tweak the paths if needed.  
-- Push & show off your new retro-futuristic HDL playground. 🎮🖥️🚀
-::contentReference[oaicite:0]{index=0}
