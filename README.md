@@ -169,15 +169,6 @@ cdm16-amba-ahb-demo/
 
 ---
 
-## Roadmap
-
-* [ ] Scripted test-bench for continuous-integration builds
-* [ ] HDL port (SystemVerilog) for FPGA synth
-* [ ] More mini-games: Tetris? Snake?
-* [ ] Replace LFSR with TRNG peripheral 🔒
-
----
-
 ## License
 
 This repository is released under the **MIT License**.
