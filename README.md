@@ -28,7 +28,7 @@
 
 ---
 
-## ❓ Why this project? 
+<h2 id="why-this-project">❓ Why this project?</h2>
 
 > *“Stop teaching bus interfaces with toy protocols.”*
 > — someone in our digital‑logic class, probably.
@@ -41,7 +41,7 @@ All the gory details live in the repo so you can **clone, run, and hack away**.
 
 ---
 
-## 🛠️ Hardware overview
+<h2 id="hardware-overview">🛠️ Hardware overview</h2>
 
 | Block                         | Function                                     |
 | ----------------------------- | -------------------------------------------- |
@@ -72,7 +72,7 @@ All the gory details live in the repo so you can **clone, run, and hack away**.
 
 ---
 
-## 🗺️ Memory map
+<h2 id="memory-map">🗺️ Memory map</h2>
 
 | Address range     | Size   | Slave               | Notes          |
 | ----------------- | ------ | ------------------- | -------------- |
@@ -89,7 +89,7 @@ All peripherals are memory‑mapped; **no special I/O instructions required**.
 
 ---
 
-## 🔔 Interrupts
+<h2 id="interrupts">🔔 Interrupts</h2>
 
 | Vector | Source           | Purpose            |
 | ------ | ---------------- | ------------------ |
@@ -102,7 +102,7 @@ Enable interrupts in the status register and you’re good. ⚡
 
 ---
 
-## 🎮 Demo application — Hangman 🪢
+<h2 id="demo-application--hangman-">🎮 Demo application — Hangman 🪢</h2>
 
 | Win                                          | Lose                                          |
 | -------------------------------------------- | --------------------------------------------- |
@@ -115,7 +115,7 @@ Enable interrupts in the status register and you’re good. ⚡
 
 ---
 
-## 🚀 Getting started 
+<h2 id="getting-started">🚀 Getting started </h2>
 
 ### 0. Prerequisites
 
@@ -152,7 +152,7 @@ Type any Russian letter on the on‑screen keyboard — IRQ 5 will fire and the
 
 ---
 
-## 🗂️ Project layout 
+<h2 id="project-layout">🗂️ Project layout </h2>
 
 ```text
 cdm16-amba-ahb-demo/
@@ -169,7 +169,7 @@ cdm16-amba-ahb-demo/
 
 ---
 
-## 📄 License 
+<h2 id="license">📄 License </h2>
 
 This repository is released under the **GNU License**.
 See [`LICENSE`](LICENSE) for the full text.
